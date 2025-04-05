@@ -145,7 +145,7 @@
 <script>
 
     const urlParams = new URLSearchParams(window.location.search);
-    const videoUrl = urlParams.get('video') || 'https://cdn.fluidplayer.com/videos/valerian-1080p.mkv';
+    const videoUrl = urlParams.get('video') || 'https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_Mal_IDC_MOB/Fallback/index.m3u8';
 
 
     const videoSource = document.getElementById('video-source');
@@ -157,7 +157,7 @@
         {
             layoutControls: {
                 primaryColor: "#28B8ED",
-                allowDownload: true 
+                allowDownload: false 
             }
         }
     );
